@@ -1,0 +1,45 @@
+.container {
+  display: block;
+  background: #fff;
+  .navBar {
+    display: flex;
+    align-items: center;
+    .logo {
+      display: block;
+    }
+    nav {
+      display: flex;
+      flex: 2;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+          margin: 0px 20px;
+          a {
+            font-size: 16px;
+            color: #000;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .download {
+      a {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 16px;
+        color: #000;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

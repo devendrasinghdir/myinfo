@@ -1,0 +1,102 @@
+.container {
+  display: block;
+  min-height: 200px;
+  background: #191a1c url("../img/footer-bg.png") top center no-repeat;
+  margin-top: 50px;
+  .footerBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    .box {
+      display: block;
+      flex-basis: 22%;
+      p {
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        font-weight: 400;
+      }
+
+      h3 {
+        display: block;
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff;
+        font-weight: 900;
+      }
+
+      ul {
+        display: block;
+        list-style: none;
+        margin-top: 20px;
+        li {
+          display: flex;
+          align-items: center;
+          padding: 5px 0px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #fff;
+          font-weight: 400;
+          span {
+            margin-left: 10px;
+          }
+          a {
+            display: block;
+            font-size: 14px;
+            line-height: 20px;
+            color: #fff;
+            font-weight: 400;
+            text-decoration: none;
+          }
+        }
+      }
+
+      ul.share {
+        display: flex;
+        justify-content: left;
+        list-style: none;
+        li {
+          margin-right: 20px;
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background: #0f1012;
+            img {
+              display: block;
+              height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyBox {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #2b2c2e;
+    .copy {
+      display: block;
+      font-size: 14px;
+      line-height: 20px;
+      color: #fff;
+      font-weight: 400;
+    }
+    .footLink {
+      a {
+        display: inline-block;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+  }
+}
